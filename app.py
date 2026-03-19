@@ -34,3 +34,7 @@ def predict(input: TextInput):
     sentiment = "Positive" if result == 1 else "Negative"
 
     return {"prediction": sentiment}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=10000)
