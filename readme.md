@@ -39,5 +39,11 @@ This project is a simple machine learning model that classifies text into two ca
 2. Install dependencies  
 3. Open the notebook and run all cells  
 
-```bash
 jupyter notebook
+
+## API
+
+This project also includes a FastAPI-based backend for real-time predictions.
+
+Run the API:
+uvicorn app:app --reload
